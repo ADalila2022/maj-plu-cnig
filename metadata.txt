@@ -1,11 +1,10 @@
 [general]
 name=MAJ PLU CNIG
 qgisMinimumVersion=3.22
-description=Plugin QGIS pour la mise à jour des données PLU selon le standard CNIG v2025-06.
-version=1.0.0
+description=QGIS plugin for updating French PLU datasets according to the CNIG PLU v2025-06 standard.
 author=Dalila AMIAR MEFTAH (GEOMA-SIG)
 authorEmail=contact@geoma-sig.com
-about=MAJ PLU CNIG automatise la mise à jour des données d'un PLU selon le standard CNIG v2025-06. Le plugin permet de traiter les tables DOC_URBA et DOC_URBA_COM ainsi que les couches ZONE_URBA, PRESCRIPTION et INFO sélectionnées par l'utilisateur. Dans cette version, seuls les champs obligatoires prévus par le standard CNIG sont créés lorsqu'ils sont absents.
+about=MAJ PLU CNIG automates the update of French PLU datasets according to the CNIG PLU v2025-06 standard. The plugin processes DOC_URBA and DOC_URBA_COM tables as well as ZONE_URBA, PRESCRIPTION and INFO layers selected by the user. In this experimental version, only mandatory fields required by the CNIG standard are created when they are missing.
 category=Vector
 icon=icon.png
 experimental=True
