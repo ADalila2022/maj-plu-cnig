@@ -2,8 +2,9 @@
 name=MAJ PLU CNIG
 qgisMinimumVersion=3.22
 description=QGIS plugin for updating French PLU datasets according to the CNIG PLU v2025-06 standard.
-author=Dalila AMIAR MEFTAH (GEOMA-SIG)
-authorEmail=contact@geoma-sig.com
+version=1.0.0
+author=Dalila Amiar Meftah (GEOMA-SIG)
+email=contact@geoma-sig.com
 about=MAJ PLU CNIG automates the update of French PLU datasets according to the CNIG PLU v2025-06 standard. The plugin processes DOC_URBA and DOC_URBA_COM tables as well as ZONE_URBA, PRESCRIPTION and INFO layers selected by the user. In this experimental version, only mandatory fields required by the CNIG standard are created when they are missing.
 category=Vector
 icon=icon.png
