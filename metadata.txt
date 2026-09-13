@@ -1,6 +1,6 @@
 [general]
 name=MAJ PLU CNIG
-qgisMinimumVersion=3.44
+qgisMinimumVersion=3.22
 description=Plugin QGIS pour la mise à jour des données PLU selon le standard CNIG v2025-06.
 version=1.0.0
 author=Dalila AMIAR MEFTAH (GEOMA-SIG)
