@@ -129,8 +129,8 @@ class MajPluCnigDialog(QDialog):
         main_layout.addWidget(info)
 
         buttons = QDialogButtonBox()
-        self.execute_button = buttons.addButton("Exécuter", QDialogButtonBox.AcceptRole)
-        self.close_button = buttons.addButton("Fermer", QDialogButtonBox.RejectRole)
+        self.execute_button = buttons.addButton("Exécuter", QDialogButtonBox.ButtonRole.AcceptRole)
+        self.close_button = buttons.addButton("Fermer", QDialogButtonBox.ButtonRole.RejectRole)
         self.close_button.clicked.connect(self.reject)
         main_layout.addWidget(buttons)
 
@@ -178,7 +178,7 @@ class MajPluCnigDialog(QDialog):
             combo.clear()
             combo.addItem("-- Aucune couche du projet --", None)
             for layer in QgsProject.instance().mapLayers().values():
-                if layer.type() == QgsMapLayer.VectorLayer:
+                if layer.type() == QgsMapLayer.LayerType.VectorLayer:
                     combo.addItem(layer.name(), layer.id())
             if current:
                 idx = combo.findData(current)
